@@ -1,0 +1,97 @@
+.box{
+    align-items: center;
+    background-color: #fafafa;
+    border-bottom: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    top: 0;
+    transition: height .2s ease-in-out;
+    width: 100%;
+    z-index: 3;
+    justify-content: center;
+}
+.innerBox{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: space-between;
+    max-width: calc(935px + 40px);
+    padding: 0 20px;
+    transition: height .2s ease-in-out;
+    width: 100%;
+    z-index: 10;
+}
+.searchBar{
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    height: 36px;
+    min-width: 125px;
+    position: relative;
+    width: 268px;
+    border-radius: 8px;
+}
+.input{
+    background: rgb(239, 239, 239);
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    height: 100%;
+    outline: none;
+    padding: 3px 16px;
+    width: 100%;
+    z-index: 2;
+}
+.logoImg{
+    height: 37px;
+}
+.buttons{
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 24px;
+    position: relative;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.btn{
+    background-color: rgb(0, 149, 246);
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 16px!important;
+    pointer-events: auto;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: inherit;
+    width: auto;
+}
+.btnText{
+    margin: 0px;
+}
+button{
+    cursor: pointer;
+}

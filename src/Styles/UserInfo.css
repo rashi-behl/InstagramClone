@@ -1,0 +1,104 @@
+.main{
+    padding: 30px 20px 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+   margin-top: 0;
+   margin-bottom: 0px;
+   margin-right: 10%;
+   margin-left: 10%;
+}
+.profilePicture{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.about{
+    flex-grow: 2;
+    flex-basis: 30px;
+}
+.canvas{
+    width: 150px;
+    height: 150px;
+}
+.profilePic{
+    height: 150px;
+    border-radius: 50%;
+}
+.userName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 1;
+    margin-bottom: 20px;
+}
+.btns{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.btn{
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(239, 239, 239);
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.options{
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-left: 5px;
+}
+.metrics{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.metricsLI{
+    font-size: 16px;
+    margin-right: 40px;
+}
+.liSpan{
+    margin-right: 5px;
+    font-weight: 600;
+}
+.name{
+    font-weight: 600;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+.name, .website,.caption{
+    align-self: flex-start;
+    display: flex;
+}
+.website{
+    color: rgb( 0, 55, 107);
+    cursor: pointer;
+}
+.verified{
+    margin-left: 20px;
+    background-size: 440px 411px;
+    background-position: -194px -351px;
+    background-image: url('https://static.cdninstagram.com/rsrc.php/v3/yV/r/6JqvJ6H_bFT.png');
+    height: 18px;
+    width: 18px;
+    background-repeat: no-repeat;
+    border: 0;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+}
